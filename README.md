@@ -7,6 +7,6 @@ Rest api call şu adrese yapılıyor: **http://127.0.0.1:8000/PCRendpoint/?page=
 Repoyu indirdikten sonra aşağıdaki komutla direkt çalıştırabilirsiniz.
 
 ```
-docker-compose up --build
+$ docker-compose up --build
 ```
 
