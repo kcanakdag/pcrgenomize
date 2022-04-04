@@ -1,0 +1,17 @@
+version: "3.8"
+
+services:
+    django:
+        build:
+            context: .
+            dockerfile: ./Dockerfile
+        ports:
+            - "8000:8000"
+    vue:
+        build:
+            context: ./frontend
+            dockerfile: ./Dockerfile
+        ports:
+            - "8080:8080"
+        expose:
+            -   8080
